@@ -40,7 +40,7 @@ function draw() {
   	
 	if(damage>10)
 	{
-		wall.shapeColor="red";
+		wall.shapeColor="green";
 		
 	}
 
@@ -48,7 +48,7 @@ function draw() {
 
 	if(damage<10)
 	{
-		wall.shapeColor="green";
+		wall.shapeColor="red";
 	}
 	
   }
